@@ -48,6 +48,24 @@ export default function WorkSection() {
                     }}
                   />
                 </GridItem>
+                <GridItem xs={12} sm={12} md={6}>
+                  <CustomInput
+                    labelText="Your Phone Number"
+                    id="phone"
+                    formControlProps={{
+                      fullWidth: true,
+                    }}
+                  />
+                </GridItem>
+                <GridItem xs={12} sm={12} md={6}>
+                  <CustomInput
+                    labelText="Your Subject"
+                    id="subject"
+                    formControlProps={{
+                      fullWidth: true,
+                    }}
+                  />
+                </GridItem>
                 <CustomInput
                   labelText="Your Message"
                   id="message"
