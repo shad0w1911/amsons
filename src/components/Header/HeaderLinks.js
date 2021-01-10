@@ -10,8 +10,6 @@ import ListItem from "@material-ui/core/ListItem";
 // @material-ui/icons
 
 // core components
-import CustomDropdown from "components/CustomDropdown/CustomDropdown.js";
-import Button from "components/CustomButtons/Button.js";
 
 import styles from "assets/jss/material-kit-react/components/headerLinksStyle.js";
 
