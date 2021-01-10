@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fa34e5ae616e5f93c8fe340aa7307083",
+    "revision": "04cd4b17b07d05fa9862f4b48c104ecb",
     "url": "/amsons/index.html"
   },
   {
-    "revision": "68771d5fba4cfe3348ab",
+    "revision": "3f310d1f54ddecb3a60c",
     "url": "/amsons/static/css/main.c5a3ee5c.chunk.css"
   },
   {
-    "revision": "b7045945b8f031d80034",
-    "url": "/amsons/static/js/2.6f41a07d.chunk.js"
+    "revision": "0e797cee553a83420400",
+    "url": "/amsons/static/js/2.079dd892.chunk.js"
   },
   {
-    "revision": "d09ac505fec0e9130a1d5b85fb3fa6dc",
-    "url": "/amsons/static/js/2.6f41a07d.chunk.js.LICENSE.txt"
+    "revision": "5e9b6f5c16b720e8a86875f97734673e",
+    "url": "/amsons/static/js/2.079dd892.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "68771d5fba4cfe3348ab",
-    "url": "/amsons/static/js/main.b6f4b4ae.chunk.js"
+    "revision": "3f310d1f54ddecb3a60c",
+    "url": "/amsons/static/js/main.6f8f0c3b.chunk.js"
   },
   {
     "revision": "83177a8ed185601760c1",
@@ -80,8 +80,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/amsons/static/media/olu-eletu.4112cbc1.jpg"
   },
   {
-    "revision": "baf6b40a654b078399e93e3d9cb6d455",
-    "url": "/amsons/static/media/profile-bg.baf6b40a.jpg"
+    "revision": "0ccbda6e3ab3670630b2f218a8cc7358",
+    "url": "/amsons/static/media/productBg.0ccbda6e.jpg"
   },
   {
     "revision": "ae0150c08dbcc95e4f50458e02e5bd5c",

@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/amsons/static/css/main.c5a3ee5c.chunk.css",
-    "main.js": "/amsons/static/js/main.b6f4b4ae.chunk.js",
-    "main.js.map": "/amsons/static/js/main.b6f4b4ae.chunk.js.map",
+    "main.js": "/amsons/static/js/main.6f8f0c3b.chunk.js",
+    "main.js.map": "/amsons/static/js/main.6f8f0c3b.chunk.js.map",
     "runtime-main.js": "/amsons/static/js/runtime-main.c4bd003b.js",
     "runtime-main.js.map": "/amsons/static/js/runtime-main.c4bd003b.js.map",
-    "static/js/2.6f41a07d.chunk.js": "/amsons/static/js/2.6f41a07d.chunk.js",
-    "static/js/2.6f41a07d.chunk.js.map": "/amsons/static/js/2.6f41a07d.chunk.js.map",
+    "static/js/2.079dd892.chunk.js": "/amsons/static/js/2.079dd892.chunk.js",
+    "static/js/2.079dd892.chunk.js.map": "/amsons/static/js/2.079dd892.chunk.js.map",
     "index.html": "/amsons/index.html",
-    "precache-manifest.ca92fd6a357135d3fc4ebd1d877c9bc1.js": "/amsons/precache-manifest.ca92fd6a357135d3fc4ebd1d877c9bc1.js",
+    "precache-manifest.458be7c1d78b7cd93ad49c5a53138459.js": "/amsons/precache-manifest.458be7c1d78b7cd93ad49c5a53138459.js",
     "service-worker.js": "/amsons/service-worker.js",
     "static/css/main.c5a3ee5c.chunk.css.map": "/amsons/static/css/main.c5a3ee5c.chunk.css.map",
-    "static/js/2.6f41a07d.chunk.js.LICENSE.txt": "/amsons/static/js/2.6f41a07d.chunk.js.LICENSE.txt",
+    "static/js/2.079dd892.chunk.js.LICENSE.txt": "/amsons/static/js/2.079dd892.chunk.js.LICENSE.txt",
     "static/media/avatar.jpg": "/amsons/static/media/avatar.f1d71f77.jpg",
     "static/media/bg.jpg": "/amsons/static/media/bg.e5241971.jpg",
     "static/media/bg2.jpg": "/amsons/static/media/bg2.84378183.jpg",
@@ -26,7 +26,7 @@
     "static/media/landing-bg.jpg": "/amsons/static/media/landing-bg.df8fd3ef.jpg",
     "static/media/mariya-georgieva.jpg": "/amsons/static/media/mariya-georgieva.4575c40b.jpg",
     "static/media/olu-eletu.jpg": "/amsons/static/media/olu-eletu.4112cbc1.jpg",
-    "static/media/profile-bg.jpg": "/amsons/static/media/profile-bg.baf6b40a.jpg",
+    "static/media/productBg.jpg": "/amsons/static/media/productBg.0ccbda6e.jpg",
     "static/media/studio-1.jpg": "/amsons/static/media/studio-1.ae0150c0.jpg",
     "static/media/studio-2.jpg": "/amsons/static/media/studio-2.76e2987e.jpg",
     "static/media/studio-3.jpg": "/amsons/static/media/studio-3.1d5451ce.jpg",
@@ -35,8 +35,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c4bd003b.js",
-    "static/js/2.6f41a07d.chunk.js",
+    "static/js/2.079dd892.chunk.js",
     "static/css/main.c5a3ee5c.chunk.css",
-    "static/js/main.b6f4b4ae.chunk.js"
+    "static/js/main.6f8f0c3b.chunk.js"
   ]
 }
