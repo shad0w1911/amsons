@@ -3,32 +3,30 @@ import React from "react";
 import classNames from "classnames";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
-// @material-ui/icons
-import Camera from "@material-ui/icons/Camera";
-import Palette from "@material-ui/icons/Palette";
-import Favorite from "@material-ui/icons/Favorite";
 // core components
 import Header from "components/Header/Header.js";
 import Footer from "components/Footer/Footer.js";
-import Button from "components/CustomButtons/Button.js";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
 import NavPills from "components/NavPills/NavPills.js";
 import Parallax from "components/Parallax/Parallax.js";
 
-import profile from "assets/img/faces/christian.jpg";
-
-import studio1 from "assets/img/examples/studio-1.jpg";
-import studio2 from "assets/img/examples/studio-2.jpg";
-import studio3 from "assets/img/examples/studio-3.jpg";
-import studio4 from "assets/img/examples/studio-4.jpg";
-import studio5 from "assets/img/examples/studio-5.jpg";
-import work1 from "assets/img/examples/olu-eletu.jpg";
-import work2 from "assets/img/examples/clem-onojeghuo.jpg";
-import work3 from "assets/img/examples/cynthia-del-rio.jpg";
-import work4 from "assets/img/examples/mariya-georgieva.jpg";
-import work5 from "assets/img/examples/clem-onojegaw.jpg";
+import bed1 from "assets/img/products/bedLinen/bedLinen1.jpg";
+import bed2 from "assets/img/products/bedLinen/bedLinen2.jpg";
+import bed3 from "assets/img/products/bedLinen/bedLinen3.jpg";
+import bed4 from "assets/img/products/bedLinen/bedLinen4.jpg";
+import bed5 from "assets/img/products/bedLinen/bedLinen5.jpg";
+import work1 from "assets/img/products/curtain/curtain1.jpg";
+import work2 from "assets/img/products/curtain/curtain2.jpg";
+import work3 from "assets/img/products/curtain/curtain3.jpg";
+import work4 from "assets/img/products/curtain/curtain4.jpg";
+import work5 from "assets/img/products/curtain/curtain5.jpg";
+import fabric1 from "assets/img/products/fabric/fabric1.jpg";
+import fabric2 from "assets/img/products/fabric/fabric2.jpg";
+import fabric3 from "assets/img/products/fabric/fabric3.jpg";
+import fabric4 from "assets/img/products/fabric/fabric4.jpg";
+import fabric5 from "assets/img/products/fabric/fabric5.jpg";
 
 import styles from "assets/jss/material-kit-react/views/profilePage.js";
 
@@ -64,20 +62,14 @@ export default function ProfilePage(props) {
               <GridItem xs={12} sm={12} md={6}>
                 <div className={classes.profile}>
                   <div>
-                    <img src={profile} alt="..." className={imageClasses} />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
                   </div>
                   <div className={classes.name}>
-                    <h3 className={classes.title}>Christian Louboutin</h3>
-                    <h6>DESIGNER</h6>
-                    <Button justIcon link className={classes.margin5}>
-                      <i className={"fab fa-twitter"} />
-                    </Button>
-                    <Button justIcon link className={classes.margin5}>
-                      <i className={"fab fa-instagram"} />
-                    </Button>
-                    <Button justIcon link className={classes.margin5}>
-                      <i className={"fab fa-facebook"} />
-                    </Button>
+                    <h1 className={classes.title}>Our Products</h1>
                   </div>
                 </div>
               </GridItem>
@@ -97,31 +89,40 @@ export default function ProfilePage(props) {
                   color="primary"
                   tabs={[
                     {
-                      tabButton: "Studio",
-                      tabIcon: Camera,
+                      tabButton: "Bed linen",
                       tabContent: (
                         <GridContainer justify="center">
                           <GridItem xs={12} sm={12} md={4}>
                             <img
                               alt="..."
-                              src={studio1}
+                              src={bed5}
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src={studio2}
+                              src={bed2}
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src={bed3}
                               className={navImageClasses}
                             />
                           </GridItem>
                           <GridItem xs={12} sm={12} md={4}>
                             <img
                               alt="..."
-                              src={studio5}
+                              src={bed4}
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src={studio4}
+                              src={bed5}
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src={bed1}
                               className={navImageClasses}
                             />
                           </GridItem>
@@ -129,8 +130,7 @@ export default function ProfilePage(props) {
                       ),
                     },
                     {
-                      tabButton: "Work",
-                      tabIcon: Palette,
+                      tabButton: "Curtain",
                       tabContent: (
                         <GridContainer justify="center">
                           <GridItem xs={12} sm={12} md={4}>
@@ -161,41 +161,50 @@ export default function ProfilePage(props) {
                               src={work5}
                               className={navImageClasses}
                             />
-                          </GridItem>
-                        </GridContainer>
-                      ),
-                    },
-                    {
-                      tabButton: "Favorite",
-                      tabIcon: Favorite,
-                      tabContent: (
-                        <GridContainer justify="center">
-                          <GridItem xs={12} sm={12} md={4}>
-                            <img
-                              alt="..."
-                              src={work4}
-                              className={navImageClasses}
-                            />
-                            <img
-                              alt="..."
-                              src={studio3}
-                              className={navImageClasses}
-                            />
-                          </GridItem>
-                          <GridItem xs={12} sm={12} md={4}>
-                            <img
-                              alt="..."
-                              src={work2}
-                              className={navImageClasses}
-                            />
                             <img
                               alt="..."
                               src={work1}
                               className={navImageClasses}
                             />
+                          </GridItem>
+                        </GridContainer>
+                      ),
+                    },
+                    {
+                      tabButton: "Fabric",
+                      tabContent: (
+                        <GridContainer justify="center">
+                          <GridItem xs={12} sm={12} md={4}>
                             <img
                               alt="..."
-                              src={studio1}
+                              src={fabric4}
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src={fabric3}
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src={fabric2}
+                              className={navImageClasses}
+                            />
+                          </GridItem>
+                          <GridItem xs={12} sm={12} md={4}>
+                            <img
+                              alt="..."
+                              src={fabric2}
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src={fabric1}
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src={fabric5}
                               className={navImageClasses}
                             />
                           </GridItem>
